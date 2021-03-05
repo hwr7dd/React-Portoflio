@@ -7,6 +7,8 @@ import React, {
 import axios from 'axios';
 import './home.css'
 import { LinearProgress } from '@material-ui/core';
+import Gear from './gear'
+import './gear.css'
 
 const dataFetchReducer = (state, action) => {
   switch (action.type) {
@@ -72,7 +74,10 @@ function Home() {
 
   return (
     <div className='main'>
-    <h1>Below is a list of my skills as well as where I have used them</h1>
+    <h1>In progress...
+    </h1>
+    <h3>Check out some of the pages while your here!</h3>
+    <Gear></Gear>
     </div>
   );
 }

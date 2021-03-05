@@ -1,0 +1,62 @@
+#gear{
+    animation-name: ckw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+    animation-timing-function: linear;
+    top:0px;
+    left:0px;
+}
+#gear2{
+    animation-name: ccw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+    animation-timing-function: linear;
+    top: 100px;
+    position: absolute;
+    top: 50px;
+    left: 72px;
+    margin-top:200px;
+    margin-left:525px;
+}
+#gear3{
+    animation-name: cw;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+    animation-timing-function: linear;
+    top: 100px;
+    position: absolute;
+    top: 80px;
+    margin-top:200px;
+    margin-left:525px;
+
+    left: 0px;
+}
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes ccw {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+  }}
+ @keyframes cw {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
