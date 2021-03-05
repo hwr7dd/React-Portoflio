@@ -1,0 +1,219 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 260px 50px 600px 300px;
+
+  gap: 5px 5px;
+  grid-template-areas:
+    "dataheader dataheader dataheader dataheader"
+    "statement  statement statement statement"
+    "card1head card2head card3head card4head"
+    "card1 card2 card3 card4"
+    "footer footer footer footer";
+}
+.blink {
+  animation: blinker 1s linear infinite;
+}
+.main{
+  margin-top:0px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.Typist .Cursor {
+  display: inline-block;
+}
+.fetched{
+  color:red;
+}
+.statement{
+  grid-area: statement;
+  text-align: center;
+  margin-left:35%;
+  margin-bottom: 44px;
+  width:500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.under{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width:70%;
+  height:30px;
+  margin-left:15%;
+}
+.loader{
+  margin-right: 10px;
+  background-color: blue;
+}
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(5deg); }
+ 95% { transform: rotate(-5deg); }
+100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+display: inline-block;
+animation: wiggle 2.5s ;
+}
+.skills{
+  text-align: center;
+}
+.dataheader{
+  
+  grid-area: dataheader;
+  margin-right:20px;
+  padding-bottom:100px;
+  text-align: center;
+
+}
+.card1head{
+  grid-area: card1head;
+  margin-left:100px;
+  margin-top:25px;
+}
+@media only screen and (max-width: 1500px) {
+  .card1head {
+    font-size:8px;
+  }
+  .card2head {
+    font-size:8px;
+    margin-left:10px;
+  }
+  .card3head {
+    font-size:8px;
+    margin-left:0px;
+
+  }
+  .card4head {
+    font-size:8px;
+  }
+}
+
+.card2head{
+  grid-area: card2head;
+  margin-left:125px;
+  margin-top:25px;
+
+
+}
+.card3head{
+  grid-area: card3head;
+  margin-left:50px;
+  margin-top:25px;
+
+
+
+}
+.type{
+  display:inline-block;
+}
+.card4head{
+  grid-area: card4head;
+  margin-left:150px;
+  margin-top:25px;
+
+
+}
+.icons{
+  height:50px;
+  width:50px;
+}
+.linkbuttons{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color:black;
+  font-size: 20px;
+  margin-left:20px;
+  border:0;
+  width:150px;
+  line-height:60px;
+  padding-top:0px;
+  cursor:pointer;
+}
+.linkbuttonsext{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color:black;
+  font-size: 20px;
+  margin-left:20px;
+
+  border:0;
+  width:375px;
+  line-height:60px;
+  padding-top:0px;
+  cursor:pointer;
+}
+.fetch{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(0, 146, 12);
+  color:white;
+  font-size: 20px;
+  border:0;
+  border-radius:15px 15px 15px;
+  width:150px;
+  line-height:60px;
+  padding-top:0px;
+  cursor:pointer;
+}
+
+.card1{
+  grid-area: card1;
+  margin-left:20px;
+  height:400px;
+
+  margin-top:25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+  overflow:scroll;
+}
+.card2{
+  grid-area: card2;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+  overflow-y:scroll;
+  margin-top:25px;
+  text-align: center;
+
+
+}
+.card3{
+  grid-area: card3;
+  margin-left:20px;
+  margin-top:25px;
+  height:400px;
+  text-align: center;
+
+  overflow-y:scroll;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card4{
+  grid-area: card4;
+  text-align: center;
+  margin-right:20px;
+  margin-left:20px;
+  margin-top:25px;
+  height:400px;
+  padding-right:10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.footer{
+  grid-area:footer;
+  text-align:center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.test{
+border-radius: 15px;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 3px;
+  height:2px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}

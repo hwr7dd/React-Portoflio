@@ -1,0 +1,68 @@
+.menuheader{
+    margin-left:40%;
+
+}
+.email{
+    margin-left:0%;
+
+}
+.headtext{
+    text-decoration: none !important;
+}
+.maintext{
+    color:black;
+}
+.menubar{
+    background-color: rgb(245, 245, 245);
+}
+.menufooter {
+    display: grid;
+    margin-top:110%;
+    text-align: center;
+    grid-template-columns: 1fr ;
+    grid-template-rows:.05fr .1fr ;
+    grid-template-areas:
+        "firstext "
+        "secondtext";
+  }
+  
+  .firstext {
+    grid-area: firstext;
+  }
+  
+  .secondtext {
+    grid-area: secondtext;
+  
+  }
+  
+.menufooter span{
+    align-self: flex-end;
+    margin-bottom: 10%;
+}
+.reactlogo{
+    width:60px;
+    height:50px;
+    margin-top:10px;
+}
+.navbartext{
+    text-align: left;
+}
+.profile{
+    width: 25%;
+    height:auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    display:inline-block;
+}
+.leftalil{
+    margin-left:10%;
+
+
+}
+.maintext{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:10px;
+    color:yellow !important
+}

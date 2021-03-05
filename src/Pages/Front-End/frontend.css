@@ -1,0 +1,72 @@
+
+.card1f{
+  grid-area: card1f;
+}
+.card2f{
+  grid-area: card2f;
+  background-color: blueviolet;
+
+}
+.card3f{
+  grid-area: card3f;
+  background-color: blueviolet;
+
+}
+.card4f{
+  grid-area: card4f;
+}
+
+.logoimgfront1{
+  width:50px;
+  grid-area: logoimgfront1;
+  margin-top:200px;
+  margin-left:200px;
+
+}
+.logoimgfront2{
+  width:50px;
+  grid-area: logoimgfront2;
+  margin-top:200px;
+  margin-left:200px;
+
+}
+.logoimgfront3{
+  width:50px;
+  grid-area: logoimgfront3;
+  margin-top:200px;
+  margin-left:200px;
+
+}
+.logoimgfront4{
+  width:50px;
+  grid-area: logoimgfront4;
+  margin-top:200px;
+  margin-left:200px;
+
+}
+.cardheader1{
+  grid-area:cardheader1;
+  background-color: aqua;
+  width: 100px;
+}
+.cardheader2{
+  grid-area:cardheader2;
+}
+.cardheader3{
+  grid-area:cardheader3;
+}
+.cardheader4{
+  grid-area:cardheader4;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 50px 100px 600px;
+
+  gap: 5px 5px;
+  grid-template-areas:
+    ". Title Title ."
+    "logoimgfront1  logoimgfront2 logoimgfront3 logoimgfront4"
+    "cardheader1 cardheader2 cardheader3 cardheader4"
+    "card1f card2f card3f card4f";
+}

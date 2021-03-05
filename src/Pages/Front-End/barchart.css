@@ -1,0 +1,19 @@
+.root1 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    height: 25vh;
+    padding: 0 50px;
+    width:50vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: yellow;
+  }
+  .mainfront{
+    width:300px;
+  }
+  svg {
+    overflow: visible;
+    width: 100%;
+  }
