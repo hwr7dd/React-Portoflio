@@ -17,10 +17,10 @@
     animation-timing-function: linear;
     top: 100px;
     position: absolute;
-    top: 50px;
-    left: 72px;
-    margin-top:200px;
-    margin-left:525px;
+    top: 42px;
+    left: 70px;
+    margin-top:15%;
+    margin-left:45%;
 }
 #gear3{
     animation-name: cw;
@@ -32,8 +32,8 @@
     top: 100px;
     position: absolute;
     top: 80px;
-    margin-top:200px;
-    margin-left:525px;
+    margin-top:15%;
+    margin-left:45%;
 
     left: 0px;
 }
