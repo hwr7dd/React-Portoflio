@@ -19,6 +19,7 @@
     "create-react-class": "^15.7.0",
     "d3": "^6.5.0",
     "dotenv": "^8.2.0",
+
     "lodash": "^4.17.20",
     "material-ui-icons": "^1.0.0-beta.36",
     "netlify-cli": "^3.4.6",
@@ -66,5 +67,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://hwr7dd.github.io/React-Portoflio/"
+
 }
