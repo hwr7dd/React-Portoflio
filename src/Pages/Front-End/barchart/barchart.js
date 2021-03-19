@@ -1,6 +1,6 @@
-import React, { useRef, useEffect, useState } from "react";
-import { select, axisBottom, axisRight, scaleLinear, scaleBand, axisLeft } from "d3";
-import ResizeObserver from "resize-observer-polyfill";
+import React, { useRef, useEffect, useState } from "./node_modules/react";
+import { select, axisBottom, axisRight, scaleLinear, scaleBand, axisLeft } from "./node_modules/d3";
+import ResizeObserver from "./node_modules/resize-observer-polyfill";
 import './barchart.css';
 const useResizeObserver = (ref) => {
   const [dimensions, setDimensions] = useState(null);

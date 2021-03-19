@@ -8,7 +8,6 @@ import Typing from 'react-typing-animation';
 import Cursor from 'react-typing-animation';
 import Loader from 'react-loader';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import python from '/Users/harrisonreid/shirlene/src/python.png';
 function App() {
   const [coins, setCoins] = useState([]);
   const [fetched,setFetch]=useState(false);

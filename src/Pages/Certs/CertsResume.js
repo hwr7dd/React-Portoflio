@@ -1,8 +1,8 @@
 
 import React,{useState,useEffect} from  'react';
-import samplePDF from "/Users/harrisonreid/shirlene/src/microcert.pdf";
-import gds from "/Users/harrisonreid/shirlene/src/gds.pdf";
-import resume from "/Users/harrisonreid/shirlene/src/resume.pdf"
+import samplePDF from "/Users/harrisonreid/shirlene/src/Pages/Home/microcert.pdf";
+import gds from "//Users/harrisonreid/shirlene/src/Pages/Home/gds.pdf";
+import resume from "/Users/harrisonreid/shirlene/src/Pages/Home/resume.pdf"
 import { Document, Page,pdfjs } from 'react-pdf';
 import './cert.css';
 import { makeStyles } from '@material-ui/core/styles';

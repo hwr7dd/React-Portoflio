@@ -1,4 +1,15 @@
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 50px 100px 600px;
 
+  gap: 5px 5px;
+  grid-template-areas:
+    ". Title Title ."
+    "logoimgfront1  logoimgfront2 logoimgfront3 logoimgfront4"
+    "cardheader1 cardheader2 cardheader3 cardheader4"
+    "card1f card2f card3f card4f";
+}
 .card1f{
   grid-area: card1f;
 }
@@ -57,16 +68,4 @@
 }
 .cardheader4{
   grid-area:cardheader4;
-}
-.grid-container1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 150px 50px 100px 600px;
-
-  gap: 5px 5px;
-  grid-template-areas:
-    ". Title Title ."
-    "logoimgfront1  logoimgfront2 logoimgfront3 logoimgfront4"
-    "cardheader1 cardheader2 cardheader3 cardheader4"
-    "card1f card2f card3f card4f";
 }
